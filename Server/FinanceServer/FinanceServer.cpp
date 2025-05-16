@@ -4,7 +4,6 @@
 #include "GameSession.h"
 #include "ClientPacketHandler.h"
 #include "iniparser.h"
-#include "StringHelper.h"
 #include "TickRunner.h"
 
 enum {
@@ -28,16 +27,6 @@ void DoWorkerJob(ServerServiceRef& service)
 
 int main()
 {
-	// Loading from file
-	INI::File ft;
-	std::ifstream file(L"./settings.ini", std::ios::in);
-	if (ft.Load("./settings.ini") == false) {
-		// Loading from stream
-		cout << "Faile Load Config File" << endl;
-		return false;
-	}
-	StdString loadCs = ft.GetSection("DB")->GetValue("ConnectionString").AsString().c_str();
-	String cs = StringHelper::ToWString(loadCs);
 
 	// ASSRT_CRASH(GDBConnectionPool->Connect(1, L"Server=127.0.0.1;Port=3306;Database=investar;Uid =root;Pwd=a4s5d6A4s5!;"));
 	// ASSERT_CRASH(GDBConnectionPool->Connect(1, cs.c_str()));
@@ -57,8 +46,6 @@ int main()
 
 	ASSERT_CRASH(service->Start());
 
-	GRoom->DoAsync(&GameRoom::GenMonster);
-
 	// GGameMapManager->Add();
 
 	for (int32 i = 0; i < 5; ++i) {
@@ -69,12 +56,10 @@ int main()
 
 	for (int32 i = 0; i < 1; ++i) {
 		GThreadManager->Launch([]() {
-			TickRunner<GameRoom> tickRunner(GRoom, 1000);
 		});
 	}
 
 	DoWorkerJob(service);
-	// Monster* monster = ObjectPool<Monster>().Pop();
 	
 	GThreadManager->Join();
 
