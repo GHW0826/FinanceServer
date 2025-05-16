@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Network">
+      <UniqueIdentifier>{eb3c9e36-0d26-4500-ae1b-78ee7a963346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{fae32d0a-5e33-4283-afb1-c54562a67505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{6db50e80-a141-4a4b-b3a1-22ddc9b82f8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{0b50bde8-e04b-43e7-a34b-504b6b2b4974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{d7df3c5c-8655-4ace-96a3-a2202f38d91b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lock">
+      <UniqueIdentifier>{d56fa784-5e45-4eb8-af6b-707cf2845b5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Buffer">
+      <UniqueIdentifier>{de6b1987-f036-4d63-9f25-7dff345d536f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Job">
+      <UniqueIdentifier>{867606bc-5b01-4887-9e48-5a38fd2c64f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DB">
+      <UniqueIdentifier>{dd57a79e-e181-4f9a-9b6d-a7a2d0e045b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\XML">
+      <UniqueIdentifier>{a57afa08-fe4b-4950-bcfa-856418101179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{329fb213-7c27-4661-93c9-f712d761439d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lock\LockType">
+      <UniqueIdentifier>{70d29c48-fea1-40a5-8640-e92e8f890e75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory\SmartPointer">
+      <UniqueIdentifier>{31daec86-638d-4972-81cd-48cc991a2ef1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CorePch.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreMacro.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreGlobal.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreTLS.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadManager.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Allocator.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPool.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketUtils.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetAddress.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPool.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeCast.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPCore.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPEvent.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Listener.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Session.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Service.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Lock.h">
+      <Filter>Lock</Filter>
+    </ClInclude>
+    <ClInclude Include="RecvBuffer.h">
+      <Filter>Network\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="SendBuffer.h">
+      <Filter>Network\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="DeadLockProfiler.h">
+      <Filter>Lock</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferReader.h">
+      <Filter>Network\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferWriter.h">
+      <Filter>Network\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="LockQueue.h">
+      <Filter>Job</Filter>
+    </ClInclude>
+    <ClInclude Include="Job.h">
+      <Filter>Job</Filter>
+    </ClInclude>
+    <ClInclude Include="JobQueue.h">
+      <Filter>Job</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalQueue.h">
+      <Filter>Job</Filter>
+    </ClInclude>
+    <ClInclude Include="JobTimer.h">
+      <Filter>Job</Filter>
+    </ClInclude>
+    <ClInclude Include="DBConnection.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="DBConnectionPool.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="DBBind.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml.hpp">
+      <Filter>Utils\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml_iterators.hpp">
+      <Filter>Utils\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml_print.hpp">
+      <Filter>Utils\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml_utils.hpp">
+      <Filter>Utils\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUtils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLParser.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Container.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleLog.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="DBSynchronizer.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="DBModel.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlBlock.h">
+      <Filter>Memory\SmartPointer</Filter>
+    </ClInclude>
+    <ClInclude Include="TickRunner.h" />
+    <ClInclude Include="EventLock.h">
+      <Filter>Lock\LockType</Filter>
+    </ClInclude>
+    <ClInclude Include="ILock.h">
+      <Filter>Lock\LockType</Filter>
+    </ClInclude>
+    <ClInclude Include="IRWLock.h">
+      <Filter>Lock\LockType</Filter>
+    </ClInclude>
+    <ClInclude Include="LockGuard.h">
+      <Filter>Lock\LockType</Filter>
+    </ClInclude>
+    <ClInclude Include="SpinLock.h">
+      <Filter>Lock\LockType</Filter>
+    </ClInclude>
+    <ClInclude Include="SSharedLock.h">
+      <Filter>Lock\LockType</Filter>
+    </ClInclude>
+    <ClInclude Include="StdLock.h">
+      <Filter>Lock\LockType</Filter>
+    </ClInclude>
+    <ClInclude Include="StdRecursiveLock.h">
+      <Filter>Lock\LockType</Filter>
+    </ClInclude>
+    <ClInclude Include="StdSharedLock.h">
+      <Filter>Lock\LockType</Filter>
+    </ClInclude>
+    <ClInclude Include="RefCounting.h">
+      <Filter>Memory\SmartPointer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CorePch.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreGlobal.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreTLS.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadManager.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Allocator.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryPool.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketUtils.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="NetAddress.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectPool.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCPCore.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCPEvent.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Listener.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Session.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Service.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Lock.cpp">
+      <Filter>Lock</Filter>
+    </ClCompile>
+    <ClCompile Include="RecvBuffer.cpp">
+      <Filter>Network\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="SendBuffer.cpp">
+      <Filter>Network\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="DeadLockProfiler.cpp">
+      <Filter>Lock</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferReader.cpp">
+      <Filter>Network\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferWriter.cpp">
+      <Filter>Network\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Job.cpp">
+      <Filter>Job</Filter>
+    </ClCompile>
+    <ClCompile Include="LockQueue.cpp">
+      <Filter>Job</Filter>
+    </ClCompile>
+    <ClCompile Include="JobQueue.cpp">
+      <Filter>Job</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalQueue.cpp">
+      <Filter>Job</Filter>
+    </ClCompile>
+    <ClCompile Include="JobTimer.cpp">
+      <Filter>Job</Filter>
+    </ClCompile>
+    <ClCompile Include="DBConnectionPool.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="DBConnection.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="DBBind.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLParser.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleLog.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="DBModel.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="DBSynchronizer.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlBlock.cpp">
+      <Filter>Memory\SmartPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="TickRunner.cpp" />
+    <ClCompile Include="EventLock.cpp">
+      <Filter>Lock\LockType</Filter>
+    </ClCompile>
+    <ClCompile Include="ILock.cpp">
+      <Filter>Lock\LockType</Filter>
+    </ClCompile>
+    <ClCompile Include="IRWLock.cpp">
+      <Filter>Lock\LockType</Filter>
+    </ClCompile>
+    <ClCompile Include="LockGuard.cpp">
+      <Filter>Lock\LockType</Filter>
+    </ClCompile>
+    <ClCompile Include="SpinLock.cpp">
+      <Filter>Lock\LockType</Filter>
+    </ClCompile>
+    <ClCompile Include="SSharedLock.cpp">
+      <Filter>Lock\LockType</Filter>
+    </ClCompile>
+    <ClCompile Include="StdLock.cpp">
+      <Filter>Lock\LockType</Filter>
+    </ClCompile>
+    <ClCompile Include="StdSharedLock.cpp">
+      <Filter>Lock\LockType</Filter>
+    </ClCompile>
+    <ClCompile Include="StdRecursiveLock.cpp">
+      <Filter>Lock\LockType</Filter>
+    </ClCompile>
+    <ClCompile Include="RefCounting.cpp">
+      <Filter>Memory\SmartPointer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

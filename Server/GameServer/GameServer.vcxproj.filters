@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{bef8d822-66c0-46fb-9dd1-f68a7c13aa56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{c4707330-c589-4be3-8b91-f73a29d43c44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{a3a30cba-8de0-4c88-9113-f998781b13a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocol">
+      <UniqueIdentifier>{74038b33-cb48-4789-ad97-8a02b958b14a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents">
+      <UniqueIdentifier>{4c137f78-a50d-40e1-bb26-6a96f2dc6023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DB">
+      <UniqueIdentifier>{5a8a64f4-c4d0-4348-8bca-8c2f4a9e022c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Job">
+      <UniqueIdentifier>{0e37b9cd-1b72-445b-998b-a81effbf4eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Zone">
+      <UniqueIdentifier>{95df3975-6c03-41ea-aba3-a19959f30439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Config">
+      <UniqueIdentifier>{36e71b21-c7ee-440e-b5da-de37f8fb8713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Object">
+      <UniqueIdentifier>{147c98bd-2e7f-46cc-87f5-338f9227e5aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Random">
+      <UniqueIdentifier>{a2077803-5360-4c80-9c01-1987dcbab442}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameServer.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="DummyPlayer.cpp">
+      <Filter>Contents\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Contents\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Contents\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMap.cpp">
+      <Filter>Contents\Zone</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSessionManager.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSession.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientPacketHandler.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Enum.pb.cc">
+      <Filter>Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="Struct.pb.cc">
+      <Filter>Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol.pb.cc">
+      <Filter>Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRoom.cpp">
+      <Filter>Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="Job.cpp">
+      <Filter>Job</Filter>
+    </ClCompile>
+    <ClCompile Include="DBConfig.cpp">
+      <Filter>Utils\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerConfig.cpp">
+      <Filter>Utils\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerGlobal.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="StringHelper.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomManager.cpp">
+      <Filter>Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Contents\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerManager.cpp">
+      <Filter>Contents\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterManager.cpp">
+      <Filter>Contents\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterGenerator.cpp">
+      <Filter>Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Utils\Random</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMapManager.cpp">
+      <Filter>Contents\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="DummyPlayer.h">
+      <Filter>Contents\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Contents\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Contents\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMap.h">
+      <Filter>Contents\Zone</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSessionManager.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSession.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientPacketHandler.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.pb.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.pb.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.pb.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRoom.h">
+      <Filter>Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="Job.h">
+      <Filter>Job</Filter>
+    </ClInclude>
+    <ClInclude Include="iniparser.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerConfig.h">
+      <Filter>Utils\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="DBConfig.h">
+      <Filter>Utils\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerGlobal.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerMacro.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="StringHelper.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomManager.h">
+      <Filter>Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTypes.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Contents\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerManager.h">
+      <Filter>Contents\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterManager.h">
+      <Filter>Contents\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterGenerator.h">
+      <Filter>Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Utils\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMapManager.h">
+      <Filter>Contents\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameServerTypes.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Common\Protobuf\bin\Enum.proto">
+      <Filter>Protocol</Filter>
+    </None>
+    <None Include="..\Common\Protobuf\bin\Protocol.proto">
+      <Filter>Protocol</Filter>
+    </None>
+    <None Include="..\Common\Protobuf\bin\Struct.proto">
+      <Filter>Protocol</Filter>
+    </None>
+    <None Include="..\Common\Protobuf\bin\GenPackets.bat">
+      <Filter>Protocol</Filter>
+    </None>
+    <None Include="DB_01.sql">
+      <Filter>DB</Filter>
+    </None>
+    <None Include="..\Common\Procedure\GenProcs.bat">
+      <Filter>DB</Filter>
+    </None>
+    <None Include="settings.ini">
+      <Filter>Utils\Config</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="GameDB.xml">
+      <Filter>DB</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Common\MapData\Map_001.txt">
+      <Filter>Contents\Zone</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

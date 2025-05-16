@@ -1,0 +1,55 @@
+#pragma once
+
+class BufferReader
+{
+public:
+	BufferReader()
+	{
+	}
+	BufferReader(BYTE* buffer, uint32 size, uint32 pos = 0)
+		: _buffer(buffer), _size(size), _pos(pos)
+	{
+	}
+	~BufferReader()
+	{
+	}
+public:
+	BYTE* Buffer() { return _buffer; }
+	uint32 Size() { return _size; }
+	uint32 ReadSize() { return _pos; }
+	uint32 FreeSize() { return _size - _pos; }
+public:
+	template<typename T>
+	bool Peek(T* dest) { return Peek(dest, sizeof(T)); };
+	bool Peek(void* dest, uint32 len)
+	{
+		if (FreeSize() < len)
+			return false;
+
+		::memcpy(dest, &_buffer[_pos], len);
+		return true;
+	}
+
+	template<typename T>
+	bool Read(T* dest) { return Read(dest, sizeof(T)); };
+	bool Read(void* dest, uint32 len)
+	{
+		if (Peek(dest, len) == false)
+			return false;
+
+		_pos += len;
+		return true;
+	}
+
+	template<typename T>
+	BufferReader& operator>>(OUT T& dest)
+	{
+		dest = *reinterpret_cast<T*>(&_buffer[_pos]);
+		_pos += sizeof(T);
+		return *this;
+	}
+private:
+	BYTE* _buffer = nullptr;
+	uint32 _size = 0;
+	uint32 _pos = 0;
+};

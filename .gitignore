@@ -1,3 +1,14 @@
+Bin/
+Lib/
+.vs/
+Server/.vs/
+Server/Bin/
+Server/Lib/
+Server/Lib/Include/
+Server/Lib/Debug/
+explain/.vs/
+explain/Bin/
+
 # Prerequisites
 *.d
 

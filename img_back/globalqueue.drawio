@@ -1,0 +1,76 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
+  <diagram name="페이지-1" id="Mk4qLJfhBqheuXUlBqEr">
+    <mxGraphModel dx="1030" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uIK4AWvPfOsUOU29CAXk-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="176" y="195" width="934" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="sQQ-UOUwGGefOafZwl83-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="270" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sQQ-UOUwGGefOafZwl83-7" value="Global Queue" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="210" y="220" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sQQ-UOUwGGefOafZwl83-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="224" y="300" width="36" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sQQ-UOUwGGefOafZwl83-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="300" width="36" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sQQ-UOUwGGefOafZwl83-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="296" y="300" width="36" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sQQ-UOUwGGefOafZwl83-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="332" y="300" width="36" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sQQ-UOUwGGefOafZwl83-13" value="Job Queue" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="210" y="270" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sQQ-UOUwGGefOafZwl83-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="270" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sQQ-UOUwGGefOafZwl83-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="394" y="300" width="36" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sQQ-UOUwGGefOafZwl83-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="300" width="36" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sQQ-UOUwGGefOafZwl83-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="466" y="300" width="36" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sQQ-UOUwGGefOafZwl83-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="502" y="300" width="36" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sQQ-UOUwGGefOafZwl83-20" value="Job Queue" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="380" y="270" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sQQ-UOUwGGefOafZwl83-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="270" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sQQ-UOUwGGefOafZwl83-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="564" y="300" width="36" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sQQ-UOUwGGefOafZwl83-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="300" width="36" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sQQ-UOUwGGefOafZwl83-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="636" y="300" width="36" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sQQ-UOUwGGefOafZwl83-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="672" y="300" width="36" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sQQ-UOUwGGefOafZwl83-26" value="Job Queue" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="550" y="270" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sQQ-UOUwGGefOafZwl83-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="270" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sQQ-UOUwGGefOafZwl83-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="890" y="270" width="170" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

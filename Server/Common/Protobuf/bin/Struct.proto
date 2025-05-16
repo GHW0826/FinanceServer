@@ -1,0 +1,24 @@
+syntax = "proto3";
+package Protocol;
+
+import "Enum.proto";
+
+message Object {
+	uint64 id = 1;
+	string name = 2;
+	GameObjectType objectType = 3;
+}
+
+message PosInfo {
+	CharacterState state = 1;
+	MoveDir moveDir = 2;
+	int32 posX = 3;
+	int32 posY = 4;
+}
+
+message ObjectInfo {
+	int32 objectId = 1;
+	string name = 2;
+	PosInfo posInfo = 3;
+}
+

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="PoolTest.cpp" />
+    <ClCompile Include="..\src\ThreadPool.cpp">
+      <Filter>src\ThreadPool</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{b09f0c58-56d2-438f-9905-2f78ca065012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{7042ecf7-a09e-405e-be81-a489e1dec052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ThreadPool">
+      <UniqueIdentifier>{9b6c9d2a-a6e8-4c84-884b-a65964fd01dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\MemoryPool">
+      <UniqueIdentifier>{8e7df7ac-1838-466f-b055-b67e4fadf668}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\test\test.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ITestMemory.h">
+      <Filter>src\MemoryPool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ITestMemoryPool.h">
+      <Filter>src\MemoryPool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LockFreeStackMemory.h">
+      <Filter>src\MemoryPool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LockFreeStackMemoryPool.h">
+      <Filter>src\MemoryPool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LockListMemoryPool.h">
+      <Filter>src\MemoryPool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LockStackMemoryPool.h">
+      <Filter>src\MemoryPool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MemoryChunkPointer.h">
+      <Filter>src\MemoryPool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MemoryChunkStack.h">
+      <Filter>src\MemoryPool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\NoPoolMemory.h">
+      <Filter>src\MemoryPool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RawPointerPool.h">
+      <Filter>src\MemoryPool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SMemory.h">
+      <Filter>src\MemoryPool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ThreadPool.h">
+      <Filter>src\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test\MemoryPoolTest.h">
+      <Filter>test</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

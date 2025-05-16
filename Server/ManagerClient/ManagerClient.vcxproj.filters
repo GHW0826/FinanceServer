@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{a92b5aaa-8d77-49c7-994e-87403649eefb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{44a8ef83-4e13-4889-a235-20fe063c856e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocol">
+      <UniqueIdentifier>{3f208b27-5f52-480e-87dc-adf586c21198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>{f98ff5b4-a4d5-4171-8307-dcc302fb70da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{e69c50d4-1b21-4349-bb5e-156572fce13d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWork">
+      <UniqueIdentifier>{ef4df1b9-edc3-4e18-a2fc-a0f30b0beb89}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ManagerClient.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Enum.pb.cc">
+      <Filter>Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol.pb.cc">
+      <Filter>Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="Struct.pb.cc">
+      <Filter>Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="MapRenderer.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerPacketHandler.cpp">
+      <Filter>NetWork</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerSession.cpp">
+      <Filter>NetWork</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderable.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagerClientGlobal.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="OwnerPlayer.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Enum.pb.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.pb.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.pb.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="MapRenderer.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerPacketHandler.h">
+      <Filter>NetWork</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerSession.h">
+      <Filter>NetWork</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderable.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerClientGlobal.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="OwnerPlayer.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Common\Protobuf\bin\Enum.proto">
+      <Filter>Protocol</Filter>
+    </None>
+    <None Include="..\Common\Protobuf\bin\GenPackets.bat">
+      <Filter>Protocol</Filter>
+    </None>
+    <None Include="..\Common\Protobuf\bin\Protocol.proto">
+      <Filter>Protocol</Filter>
+    </None>
+    <None Include="..\Common\Protobuf\bin\Struct.proto">
+      <Filter>Protocol</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Common\MapData\Map_001.txt">
+      <Filter>Map</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
