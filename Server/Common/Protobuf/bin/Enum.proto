@@ -1,0 +1,23 @@
+syntax = "proto3";
+package Protocol;
+
+
+enum GameObjectType {
+  PLAYER = 0;
+  MONSTER = 1;
+}
+
+enum CharacterState {
+	IDLE = 0;
+	MOVING = 1;
+	ATTACK = 2;
+	DEAD = 3;
+}
+
+enum MoveDir {
+	NONE = 0;
+	UP = 1;
+	DOWN = 2;
+	LEFT = 3;
+	RIGHT = 4;
+}

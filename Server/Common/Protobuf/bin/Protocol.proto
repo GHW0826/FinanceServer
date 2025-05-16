@@ -1,0 +1,50 @@
+syntax = "proto3";
+package Protocol;
+
+import "Enum.proto";
+import "Struct.proto";
+
+message C_ENTERGAME
+{
+}
+
+message S_ENTERGAME
+{
+	ObjectInfo object = 1;
+}
+
+message S_LEAVEGAME
+{
+}
+
+message S_SPAWN
+{
+	repeated ObjectInfo objects = 1;
+}
+
+message S_DESPAWN
+{
+	repeated int32 objectIds = 1;
+}
+
+message C_MOVE
+{
+	PosInfo posInfo = 1;
+}
+
+message S_MOVE
+{
+	int32 objectId = 1;
+	PosInfo posInfo = 2;
+}
+
+message C_CHAT
+{
+	string msg = 1;
+}
+
+message S_CHAT
+{
+	uint64 objectId = 1;
+	string msg = 2;
+}
