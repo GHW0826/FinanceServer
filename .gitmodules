@@ -1,0 +1,3 @@
+[submodule "Server/FinanceLib"]
+	path = Server/FinanceLib
+	url = https://github.com/GHW0826/FinanceLib.git
