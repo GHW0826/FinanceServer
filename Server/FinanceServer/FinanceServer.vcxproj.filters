@@ -36,7 +36,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GameServer.cpp">
+    <ClCompile Include="FinanceServer.cpp">
       <Filter>Main</Filter>
     </ClCompile>
     <ClCompile Include="DummyPlayer.cpp">

@@ -191,7 +191,7 @@
     </ClCompile>
     <ClCompile Include="GameMapManager.cpp" />
     <ClCompile Include="GameObject.cpp" />
-    <ClCompile Include="GameServer.cpp" />
+    <ClCompile Include="FinanceServer.cpp" />
     <ClCompile Include="GameSession.cpp" />
     <ClCompile Include="GameSessionManager.cpp" />
     <ClCompile Include="Job.cpp" />
